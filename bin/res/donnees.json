@@ -1,0 +1,43 @@
+{
+  "capacity_facility": [
+    15,
+    30,
+    5,
+    30
+  ],
+  "fixed_cost_facility": [
+    549,
+    106,
+    89,
+    435
+  ],
+  "demand_customer": [
+    3,
+    2,
+    9
+  ],
+  "cost_matrix": [
+    [
+      815,
+      94,
+      321
+    ],
+    [
+      751,
+      314,
+      257
+    ],
+    [
+      571,
+      415,
+      0
+    ],
+    [
+      563,
+      626,
+      221
+    ]
+  ],
+  "num_facility_locations": 4,
+  "num_customers": 3
+}

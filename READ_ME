@@ -1,0 +1,15 @@
+A l'exécution de la classe Main():
+Le programme demande si l'on souhaite procéder au lancement de la fonction lancementBDD qui rempli la BDD
+On voit apparaître le choix de la taille des données que l’on veut traiter dans la console:
+		En cours ...
+		Choisir la taille à traiter : 
+		1 : Petite taille
+		2 : Moyenne taille
+		3 : Grande taille
+
+L’utilisateur saisit donc 1, 2 ou 3 en fonction de ce qu'il veut traiter.
+
+L’utilisateur saisit ensuite le bordereau avec la date associée qu’il souhaite traiter s'il choisit la taille moyenne ou grande. 
+Cela lance le programme, l’appel au solveur et les stocke dans un fichier de résolution Json. 
+A la fin, on demande confirmation à l’utilisateur qu’il veut réellement mettre à jour les CSV à partir de la solution trouvée par l’algorithme, il nous affiche les clients livrés et quel entrepôt livre le client.
+L'utilisateur peut obtenir le bordereau de livraison Excel en ouvrant le fichier "donnees.csv"
